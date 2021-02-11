@@ -1,0 +1,12 @@
+.container div {
+    margin: auto;
+}
+.card {
+    background-color: #343A40;
+    color: white;
+}
+
+.img {
+    border-style: solid;
+    border-color: white;
+}

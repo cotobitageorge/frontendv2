@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    border-style: solid;
+    border-color: white;
+}
+.card {
+    color: white;
+    background-color: #343A40;
+}
+.card-subtitle {
+    color: #7fb4d3;
+}

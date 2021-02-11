@@ -1,0 +1,55 @@
+.card-body {
+    color: white;
+    background-color: #343A40;
+}
+.card-subtitle {
+    color: #7fb4d3;
+}
+.card {
+    margin: 10px 0px;
+    border-style: solid;
+    border-color: white;
+    background-color: #343A40;
+}
+
+.like-btn {
+    font-size: 15px;
+    padding: 10px 75px;
+    transition-duration: 0.4s;
+    border-color: transparent;
+    background-color: #0A75B2;
+    outline: transparent;
+    align-items: center;
+    color: white;
+    
+}
+.like-btn:hover {
+    background-color: #0b689e;
+    color: white;
+    border-color: transparent;
+}
+.comment-btn {
+    font-size: 15px;
+    padding: 10px 75px;
+    transition-duration: 0.4s;
+    border-color: transparent;
+    background-color: #0A75B2;
+    outline: transparent;
+    align-items: center;
+    color: white;
+    
+}
+.comment-btn:hover {
+    background-color: #0b689e;
+    color: white;
+    border-color: transparent;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    resize: none;
+}
+.form-control {
+    margin: auto;
+}

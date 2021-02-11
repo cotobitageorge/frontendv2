@@ -1,0 +1,10 @@
+.card-body {
+    color: white;
+    background-color: #343A40;
+}
+.card-subtitle {
+    color: #7fb4d3;
+}
+.card {
+    margin: 10px 0px;
+}

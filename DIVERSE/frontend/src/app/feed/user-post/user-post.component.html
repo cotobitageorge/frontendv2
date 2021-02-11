@@ -1,0 +1,30 @@
+
+    <div class="card" style="width: 520px;">
+      <div class="card-body">
+        <h5 class="card-subtitle mb-2 ">By: {{userPost.user.firstName}} {{userPost.user.lastName}}</h5>
+       <p>{{userPost.text}}</p>
+      </div>
+
+      <div>
+        <h6>Comments:</h6>
+        <div *ngFor="let comment of userPost.comment">
+          {{comment.text}}
+        </div>
+          <div class="alert alert-success" style="width: 300px; margin: auto;" *ngIf="submittedPressedCom">
+              <strong>Comment Successful!</strong>
+          </div>
+      </div>
+
+      <div class="card-body">
+        <p></p>
+      </div>
+
+      <form  [formGroup]="commentForm">
+        <div>
+          <button class="like-btn">Like</button> <button type="comment" class="comment-btn" (click)="comment()">Comment</button>
+          <textarea formControlName="text"  class="form-control" maxlength="200"></textarea>
+        </div>
+      </form>
+    </div>
+
+          

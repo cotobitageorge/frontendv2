@@ -1,0 +1,38 @@
+
+.button {
+    color: white;
+    font-size: 15px;
+    padding: 20px 30px;
+    transition-duration: 0.4s;
+    border-color: transparent;
+    background-color: #343A40;
+    outline: none;
+    border-radius: 5%;
+}
+.button:hover {
+    background-color: #0A75B2;
+    color: white;
+    border-color: transparent;
+    outline: none;
+}
+.button:focus {
+    background-color: #0A75B2;
+    color: white;
+    border-color: transparent;
+    outline: none;
+}
+.button:active {
+    background-color: #0A75B2;
+    color: white;
+    border-color: transparent;
+    outline: none;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+.navbar {
+    white-space: nowrap;
+}

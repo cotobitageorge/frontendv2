@@ -1,0 +1,23 @@
+<div class="card" style="width: 500px;">
+  <h2>{{tokenFName}} {{tokenLName}}</h2>
+  <h5>Email: {{tokenMail}}</h5>
+  <h5>Gender: {{tokenGender}}</h5>
+</div>
+
+
+<div class="card" style="width:500px;">
+
+      <form [formGroup]="postForm">
+          <label>Whats on your mind?</label>
+
+          <textarea type="text" 
+            formControlName="text" 
+            class="form-control" 
+            maxlength="200">
+          </textarea>
+            <button type="post" class="btn" (click)="post()">Post</button>
+      </form>
+      <div class="alert alert-success" *ngIf="submittedPressed">
+        <strong>Posted!</strong>
+      </div>
+</div>
